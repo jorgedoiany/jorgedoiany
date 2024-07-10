@@ -35,22 +35,20 @@
 
 ## <img src="https://media2.giphy.com/media/0mUTv7Yu0TFn0SGSN2/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35"> <b> Productivity Tools </b>
 
-<table align="center" style="border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <td align="center" style="border: none;">
-      <img src="https://img.icons8.com/?size=100&id=g7UKWvv49CoI&format=png&color=000000" alt="Microsoft 365 Icon" width="60px">
-      <p>Microsoft 365</p>
-    </td>
-    <td align="center" style="border: none;">
-      <img src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000" alt="Microsoft Power BI Icon" width="60px">
-      <p>Microsoft Power BI</p>
-    </td>
-    <td align="center" style="border: none;">
-      <img src="https://img.icons8.com/?size=100&id=21049&format=png&color=000000" alt="Trello Icon" width="60px">
-      <p>Trello</p>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: center;">
+  <div style="text-align: center; margin: 0 20px;">
+    <img src="https://img.icons8.com/?size=100&id=g7UKWvv49CoI&format=png&color=000000" alt="Microsoft 365 Icon" width="60px">
+    <p>Microsoft 365</p>
+  </div>
+  <div style="text-align: center; margin: 0 20px;">
+    <img src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000" alt="Microsoft Power BI Icon" width="60px">
+    <p>Microsoft Power BI</p>
+  </div>
+  <div style="text-align: center; margin: 0 20px;">
+    <img src="https://img.icons8.com/?size=100&id=21049&format=png&color=000000" alt="Trello Icon" width="60px">
+    <p>Trello</p>
+  </div>
+</div>
 
 <br>
 <br>
