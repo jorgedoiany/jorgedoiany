@@ -36,20 +36,20 @@
 ## <img src="https://media2.giphy.com/media/0mUTv7Yu0TFn0SGSN2/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35"> <b> Productivity Tools </b>
 
 <p align="center">
-  <div style="text-align: center; display: inline-block;">
+  <span style="text-align: center; display: inline-block; margin: 10px;">
     <img src="https://img.icons8.com/?size=100&id=g7UKWvv49CoI&format=png&color=000000" alt="Microsoft 365 Icon" width="60px">
     <p>Microsoft 365</p>
-  </div>
+  </span>
 
-  <div style="text-align: center; display: inline-block;">
+  <span style="text-align: center; display: inline-block; margin: 10px;">
     <img src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000" alt="Microsoft Power BI Icon" width="60px">
     <p>Microsoft Power BI</p>
-  </div>
+  </span>
 
-  <div style="text-align: center; display: inline-block;">
+  <span style="text-align: center; display: inline-block; margin: 10px;">
     <img src="https://img.icons8.com/?size=100&id=21049&format=png&color=000000" alt="Trello Icon" width="60px">
     <p>Trello</p>
-  </div>
+  </span>
 </p>
 
 <br>
@@ -62,7 +62,7 @@
     <img src="https://github-readme-stats.vercel.app/api?username=jorgedoiany&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" width="400" style="color: #9f9f9f; font-size: 14px;" />
   </a>
   <a href="https://github.com/jorgedoiany">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgedoiany&layout=compact&bg_color=151515&text_color=9f9f9f&title_color=fff" width="300" style="color: #9f9f9f; font-size: 14px;" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgedoiany&layout=compact&bg_color=151515&text_color=9f9f9f&title_color=fff" width="400" style="color: #9f9f9f; font-size: 14px;" />
   </a>
 </p>
 
