@@ -37,10 +37,11 @@
 
 <p align="center">
   <img src="https://img.icons8.com/?size=100&id=g7UKWvv49CoI&format=png&color=000000" alt="Microsoft 365 Icon" width="60px">
+  &nbsp; &nbsp; &nbsp;
   <img src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000" alt="Microsoft Power BI Icon" width="60px">
+  &nbsp; &nbsp; &nbsp;
   <img src="https://img.icons8.com/?size=100&id=21049&format=png&color=000000" alt="Trello Icon" width="60px">
 </p>
-
 
 <br>
 <br>
