@@ -41,9 +41,6 @@
   <img src="https://img.icons8.com/?size=100&id=21049&format=png&color=000000" alt="Trello Icon" width="60px">
 </p>
 
-<p align="center">
-  <b>Microsoft 365</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>Microsoft Power BI</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>Trello</b>
-</p>
 
 <br>
 <br>
