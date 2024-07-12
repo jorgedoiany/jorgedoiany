@@ -41,14 +41,15 @@
 <p>Microsoft 365</p>
 </p>
 
-<div style="text-align: center">
+<p style="text-align: center">
 <img src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000" alt="Microsoft Power BI Icon" width="60px">
 <p>Microsoft Power BI</p>
-</div>
+</p>
 
-<div style="text-align: center">
+<p style="text-align: center">
 <img src="https://img.icons8.com/?size=100&id=21049&format=png&color=000000" alt="Trello Icon" width="60px">
 <p>Trello</p>
+</p>
 </p>
 
 <br>
