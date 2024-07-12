@@ -35,7 +35,7 @@
 
 ## <img src="https://media2.giphy.com/media/0mUTv7Yu0TFn0SGSN2/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35"> <b> Productivity Tools </b>
 
-<table align="center" style="border-collapse: collapse; border: none;">
+<table align="center" border="0" style="border: none; border-collapse: collapse;">
   <tbody>
     <tr valign="top" style="border: none;">
       <td width="25%" align="center" style="border: none;">
@@ -53,6 +53,7 @@
     </tr>
   </tbody>
 </table>
+
 
 
 
