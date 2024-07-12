@@ -37,7 +37,7 @@
 
 <p align="center">
 <img src="https://img.icons8.com/?size=100&id=g7UKWvv49CoI&format=png&color=000000" alt="Microsoft 365 Icon" width="60px">
-
+<b>Microsot Office</b>
 
 
 <img src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000" alt="Microsoft Power BI Icon" width="60px">
