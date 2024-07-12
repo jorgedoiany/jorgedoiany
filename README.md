@@ -36,10 +36,10 @@
 ## <img src="https://media2.giphy.com/media/0mUTv7Yu0TFn0SGSN2/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35"> <b> Productivity Tools </b>
 
 <p align="center">
-  <div style="text-align: center">
+  <p style="text-align: center">
 <img src="https://img.icons8.com/?size=100&id=g7UKWvv49CoI&format=png&color=000000" alt="Microsoft 365 Icon" width="60px">
 <p>Microsoft 365</p>
-</div>
+</p>
 
 <div style="text-align: center">
 <img src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000" alt="Microsoft Power BI Icon" width="60px">
