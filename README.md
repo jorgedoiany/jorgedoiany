@@ -81,7 +81,7 @@
 
 <p align="center">
   <a href="https://github.com/jorgedoiany">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jorgedoiany&repo=cipher-box-app&layout=compact&bg_color=151515&text_color=9f9f9f&title_color=fff" width="400" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jorgedoiany&repo=little-lemon-website&layout=compact&bg_color=151515&text_color=9f9f9f&title_color=fff" width="400" />
   </a>
 </p>
 
