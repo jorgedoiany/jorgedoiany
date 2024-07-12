@@ -35,9 +35,9 @@
 
 ## <img src="https://media2.giphy.com/media/0mUTv7Yu0TFn0SGSN2/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="35"> <b> Productivity Tools </b>
 
-<table align="center" border="0">
+<table align="center">
   <tbody>
-    <tr valign="top" style="border: none;">
+    <tr valign="top">
       <td width="25%" align="center">
         <img src="https://img.icons8.com/color/48/microsoft-office-2019.png" alt="Microsoft 365 Icon" width="60px">
         <span>Microsoft Office</span>
