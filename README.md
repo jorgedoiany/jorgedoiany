@@ -7,7 +7,7 @@
 <br>
 <br>
 
-## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> **About me**
+## <picture><iframe src="https://giphy.com/embed/jdPMeyv9rn0hZHh8n9" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/coding-programmer-ngoding-jdPMeyv9rn0hZHh8n9">via GIPHY</a></p></picture> **About me**
 
 - **Self-taught Front-End Developer**: Skilled in React, HTML, CSS, and JavaScript.
 - **Proven Track Record**: Successfully delivered multiple personal projects demonstrating adaptability and mastery of new tools and frameworks.
@@ -104,4 +104,4 @@
 
 Credits: [jorgedoiany](https://github.com/jorgedoiany/)
 
-Last Edited on: 10/07/2024
+Last Edited on: 06/08/2024
