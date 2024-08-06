@@ -7,7 +7,7 @@
 <br>
 <br>
 
-## <picture><iframe src="https://giphy.com/embed/jdPMeyv9rn0hZHh8n9" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/coding-programmer-ngoding-jdPMeyv9rn0hZHh8n9">via GIPHY</a></p></picture> **About me**
+## <img src="https://media.giphy.com/media/jdPMeyv9rn0hZHh8n9/giphy.gif" width ="25"><b> **About me**
 
 - **Self-taught Front-End Developer**: Skilled in React, HTML, CSS, and JavaScript.
 - **Proven Track Record**: Successfully delivered multiple personal projects demonstrating adaptability and mastery of new tools and frameworks.
