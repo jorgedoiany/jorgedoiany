@@ -66,7 +66,7 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
 
 <p align="center">
-  <a href="https://github.com/jorgedoiany/little-lemon-website">
+  <a href="https://github.com/jorgedoiany/team-organizer.git">
     <img src="https://github-readme-stats.vercel.app/api?username=jorgedoiany&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" width="400" style="color: #9f9f9f; font-size: 14px;" />
   </a>
   <a href="https://github.com/jorgedoiany">
@@ -80,8 +80,8 @@
 ## <img src="https://media2.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"><b> My Latest Project </b>
 
 <p align="center">
-  <a href="https://github.com/jorgedoiany/simple-budget.git">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jorgedoiany&repo=simple-budget&layout=compact&bg_color=151515&text_color=9f9f9f&title_color=fff&v=1" width="400" />
+  <a href="https://github.com/jorgedoiany/team-organizer.git">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jorgedoiany&repo=team-organizer&layout=compact&bg_color=151515&text_color=9f9f9f&title_color=fff&v=1" width="400" />
   </a>
 </p>
 
