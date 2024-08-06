@@ -7,7 +7,7 @@
 <br>
 <br>
 
-## <img src="https://media.giphy.com/media/jdPMeyv9rn0hZHh8n9/giphy.gif" width ="25"><b> **About me**
+## <img src="https://media.giphy.com/media/7r0taLxiDLEIUwciKx/giphy.gif" width ="40"><b> **About me**
 
 - **Self-taught Front-End Developer**: Skilled in React, HTML, CSS, and JavaScript.
 - **Proven Track Record**: Successfully delivered multiple personal projects demonstrating adaptability and mastery of new tools and frameworks.
