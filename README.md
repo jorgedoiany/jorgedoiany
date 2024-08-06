@@ -66,7 +66,7 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
 
 <p align="center">
-  <a href="https://github.com/jorgedoiany/team-organizer.git">
+  <a href="https://github.com/jorgedoiany">
     <img src="https://github-readme-stats.vercel.app/api?username=jorgedoiany&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" width="400" style="color: #9f9f9f; font-size: 14px;" />
   </a>
   <a href="https://github.com/jorgedoiany">
