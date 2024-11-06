@@ -81,7 +81,7 @@
 
 <p align="center">
   <a href="https://github.com/jorgedoiany/recipe-page-main.git">
-    <img src="" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=jorgedoiany&repo=recipe-page-main&layout=compact&bg_color=151515&text_color=9f9f9f&title_color=fff&v=1" width="400" />
   </a>
 </p>
 
