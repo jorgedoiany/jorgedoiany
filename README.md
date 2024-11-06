@@ -80,7 +80,7 @@
 ## <img src="https://media2.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"><b> My Latest Project </b>
 
 <p align="center">
-  <a href="https://github.com/jorgedoiany/recipe-page-main.git">
+  <a href="">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=jorgedoiany&repo=recipe-page-main&layout=compact&bg_color=151515&text_color=9f9f9f&title_color=fff&v=1" width="400" />
   </a>
 </p>
