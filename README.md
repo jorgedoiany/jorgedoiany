@@ -17,7 +17,7 @@
 
 ## 🧠 About Me
 
-I am a **Master’s student in Artificial Intelligence** with a strong foundation in **applied Machine Learning**, **Deep Learning**, and **data-driven experimentation**, combined with a background in **Frontend development**.
+I'm a **Master’s student in Artificial Intelligence** with a strong foundation in **applied Machine Learning**, **Deep Learning**, and **data-driven experimentation**, combined with a background in **Frontend development**.
 
 My profile is oriented toward **AI/ML engineering at junior or trainee level**, with particular interest in:
 - Applied machine learning pipelines
