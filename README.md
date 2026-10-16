@@ -3,13 +3,13 @@
 </h1>
 
 <p align="center">
-  <strong>AI Engineer · MSc in Artificial Intelligence</strong><br>
-  Frontend + AI
+  <strong>AI Engineer · LLM, RAG & Agentic Workflows</strong><br>
+  Auditable AI · Dominican Republic
 </p>
 
 <p align="center">
   <a href="https://readme-typing-svg.herokuapp.com">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=AI+Engineer;LLM+Integration+%26+Prompt+Optimization;NLP+%7C+Computer+Vision+%7C+Recommendation+Systems;Domain-Aware+AI+for+Real-World+Problems;MSc+in+Artificial+Intelligence+%E2%80%94+UNIR+2026">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=AI+Engineer;LLM%2C+RAG+%26+Agentic+Workflows;LangGraph+%26+MCP;Auditable+AI">
   </a>
 </p>
 
@@ -17,98 +17,102 @@
 
 ## 🧠 About Me
 
-**AI Engineer** with hands-on delivery across LLM integration, NLP, and Computer Vision.
+AI Engineer focused on LLM, RAG and agentic systems that are traceable and testable. M.Sc. in Artificial Intelligence (UNIR): program completed Feb. 2026, degree conferral expected 2027.
 
-- Built an **LLM-powered contract analysis system** that cut review time by ~65% and reduced token consumption by 85–90% through prompt compression and context window optimization — deployed in production at Transgenia (Mexico).
-- Developed the **Film Tax Credit Agent**, a Python-based agentic system that automates eligibility and credit calculation for Dominican audiovisual productions under Art. 39 — replacing a fully manual compliance process.
-- Completed an **MSc in Artificial Intelligence** (UNIR, 2026) with a Master's Thesis on hybrid NLP recommendation systems, achieving 0.815 avg similarity vs 0.13 baseline across 12 test queries.
-- **5+ years** of financial data analysis domain expertise in the Dominican public sector — directly applied to AI system design.
-
-I build production-grade AI, not prototypes.
+- **Transgenia (AI Engineer Intern, Sep. 2025 – Jan. 2026):** built an internal LLM contract-analysis MVP that cut contract review time by ~65% (from 25 to 6–8 minutes) across 20+ contracts, and reduced token usage by 85–90% through prompt compression and context control. Model calls are audit-logged for traceability.
+- **On my own:** a LangGraph MVP that separates deterministic validation from RAG-based legal reasoning, with a citation validation layer, and an MCP server with a Strands agent on Amazon Bedrock for an Amazon hackathon.
+- **Dominican Republic Film Commission (DGCINE), Data Analyst, since May 2021:** I designed the rule-based validation logic and reviewed 100% of more than 700 validation case files for a fiscal incentive program that has approved more than $326M USD, identifying 2,539+ non-admissible expenses (~$470K USD).
 
 ---
 
 ## 📂 AI Projects
 
-### 🎬 Film Tax Credit Agent
-**AI Agents · Python · Business Rules Automation**
+### 🎬 Film Tax Credit Compliance Engine (MVP)
+**LangGraph · RAG · Ollama · Python**
 
-Python-based agentic system that automates eligibility evaluation and tax credit calculation for Dominican audiovisual productions under Art. 39. Replaces a fully manual compliance process with end-to-end tested business logic covering validated expenditure calculation, credit determination, and audit traceability. Designed to scale batch processing at near-zero marginal cost.
+Agentic MVP built with LangGraph that supports tax credit eligibility decisions for Dominican audiovisual productions under Art. 39. It combines deterministic, SQL-driven financial validation with RAG-based legal reasoning on a local LLM (Ollama). A citation validation layer restricts the LLM to cite only retrieved legal text, so every cited source is traceable to the legal text. Verified with 4/4 passing tests covering expense validation, compliance flow and citation integrity.
 
 🔗 https://github.com/jorgedoiany/film-tax-credit-agent
 
 ---
 
-### 🎥 Film Location Recommender
-**NLP · Hybrid Recommendation System · Streamlit**
+### 🧩 Amazon Hackathon: MCP Server and Agent (MVP)
+**MCP · Strands Agents · Amazon Bedrock · FastAPI** · *private repository*
 
-Hybrid NLP recommendation system that matches narrative scene descriptions to real film locations in the Dominican Republic. Combines TF-IDF with MiniLM and XLM-R SBERT sentence embeddings using cosine similarity. Trained on a real dataset of 208 verified locations provided by DGCINE. Hybrid model achieved **0.815 avg similarity** vs 0.13 TF-IDF baseline across 12 test queries.
+MCP server (FastMCP, Streamable HTTP) with four stateful tools and SQLite-backed project state, so a project can be built across several conversation turns. A Strands agent, using Claude on Amazon Bedrock as the model provider, connects to the tools through a FastAPI client that simulates a voice assistant. It reuses deterministic validation engines from the Film Tax Credit Compliance Engine, wrapped with adapters that label every figure as self-reported and not validated. Covered by 50 pytest tests across the engines, adapters and MCP tools over a real client session.
 
-Master's Thesis — MSc in Artificial Intelligence, UNIR (2026)
+---
+
+### 📄 Dominican Film Data Pipeline (MVP)
+**OCR · Document Intelligence · PostgreSQL**
+
+Document intelligence pipeline built over 2,543 DGCINE fiscal-incentive resolutions spanning 14 years. It combines direct parsing, Tesseract OCR (which handled 96.6% of documents) and GPT-4o Vision on Azure OpenAI as a fallback for low-quality scans. Confidence scoring across 15 critical fields flags low-confidence records for manual review, and entity normalization covers RNC validation, currency parsing, ISO date standardization and OCR artifact correction. A manual review of 50+ documents that initially failed extraction revealed three template versions across the 14 years, and rewriting the extraction patterns for each made most of them parse correctly. Data is stored in a 5-table relational schema (SQLite, migrated to PostgreSQL on Supabase), and incremental processing cut monthly runs from 60–90 minutes to under 5 seconds for already-processed documents.
+
+🔗 https://github.com/jorgedoiany/dominican-film-data-pipeline
+
+---
+
+### 🎥 Film Location Recommender (MVP, M.Sc. thesis)
+**NLP · Hybrid Recommendation · Streamlit**
+
+Semantic search MVP built for my M.Sc. thesis at UNIR (*"Sistema de recomendación de locaciones cinematográficas mediante PLN y aprendizaje automático"*, defended). The user enters a narrative scene description and the system returns ranked film location suggestions from a dataset of 208 film locations from the Dominican Republic, using a hybrid NLP approach that combines TF-IDF with MiniLM and XLM-R sentence embeddings. The hybrid model reached a mean similarity score of 0.815 versus 0.13 for the TF-IDF baseline (6.3x) across 12 test queries, with inference in under 2 seconds. Built with Python, spaCy, Sentence-Transformers, scikit-learn and Streamlit.
 
 🔗 https://github.com/jorgedoiany/film-location-recommender-pilot
 
 ---
 
-### 🛰️ Amazon Deforestation Segmentation
-**Computer Vision · Temporal Analysis · OpenCV**
+### 🛰️ Amazon Deforestation Segmentation (MVP)
+**Classical Computer Vision · Temporal Analysis · OpenCV**
 
-Computer vision system that detects and quantifies deforestation in the Amazon using satellite image time series (2000–2019). Compares 3 detection algorithms: Baseline Gradient, HSV Vegetation Loss, and Robust Multi-Space (HSV + LAB + cloud filtering). Includes CLI batch processing, Jupyter notebooks, and pytest-validated results.
+Classical computer vision MVP that estimates vegetation loss in natural-color Landsat frames of the BR-163 corridor (Pará, Brazil), using 20 annual frames (2000–2019) from a NASA Earth Observatory time-lapse. Compares three methods: a Sobel gradient baseline, HSV vegetation loss, and HSV + LAB with cloud masking and morphological cleaning. A time-series engine over 19 annual transitions identifies acceleration, peak-loss periods and persistent deforestation. Includes CLI tools, a Python API, a synthetic data generator and 115 pytest tests (76% coverage). Built with Python, OpenCV, NumPy and scikit-image.
 
 🔗 https://github.com/jorgedoiany/amazon-deforestation-segmentation
 
 ---
 
-### 🌙 Low-Light Image Enhancement
+### 🌙 Low-Light Image Enhancement (early MVP)
 **Computer Vision · Image Processing · Evaluation Metrics**
 
-Reproducible pipeline comparing classical low-light enhancement methods: Gamma Correction, CLAHE, and Single-Scale Retinex (SSR). Quantitative evaluation using PSNR and SSIM metrics. CLI execution, Jupyter demo notebook, and structured CSV output per run.
+Classical computer vision pipeline comparing Gamma Correction, CLAHE and Single-Scale Retinex (SSR), evaluated with PSNR and SSIM. Includes CLI execution, a Jupyter demo notebook and structured CSV output per run.
 
 🔗 https://github.com/jorgedoiany/low-light-image-enhancement
 
 ---
 
-📌 *Master’s Thesis (TFM):*  
-**AI-based hybrid recommender system for film location scouting**  
-*(Currently in development — experimental and applied focus)*
-
----
-
 ## 🛠️ Technical Stack
 
-### 🤖 Artificial Intelligence & Data
+### 🤖 LLMs, Agents & AI
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Amazon_Bedrock-232F3E?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
 </p>
 
-- LLM Integration · Prompt Engineering · Context Window Optimization
-- NLP: TF-IDF · Sentence Embeddings · Cosine Similarity · spaCy
-- Computer Vision: Image Segmentation · Enhancement Pipelines · Temporal Analysis
-- Recommendation Systems: Hybrid Models · Semantic Search
-- Model evaluation · Reproducible experimentation  
+- LLM pipelines · RAG · Agentic workflows · Tool use · Prompt engineering · Strands Agents · Ollama
+- NLP: TF-IDF · Sentence embeddings (MiniLM, XLM-R) · spaCy
+- Computer vision and OCR: OpenCV · scikit-image · Tesseract OCR
 
 ---
 
-### 🌐 Frontend & Web
+### 🗄️ Data & Backend
 <p>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white"/>
 </p>
 
-Frontend background applied to AI-driven interfaces and data products.
+- Data validation · Data quality · Relational schema design · REST APIs
 
 ---
 
@@ -136,7 +140,7 @@ Frontend background applied to AI-driven interfaces and data products.
   <a href="https://www.linkedin.com/in/jorge-peguero/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:doiany.1412@gmail.com">
+  <a href="mailto:jorgedoiany@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://github.com/jorgedoiany">
@@ -146,4 +150,4 @@ Frontend background applied to AI-driven interfaces and data products.
 
 ---
 
-<sub>Last updated: 2026</sub>
+<sub>Last updated: October 2026</sub>
