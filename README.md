@@ -128,9 +128,7 @@ Classical computer vision pipeline comparing Gamma Correction, CLAHE and Single-
 
 ## 📈 GitHub Contribution Activity
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jorgedoiany&theme=github-dark&hide_border=true" />
-</p>
+<p align="center"> <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=jorgedoiany&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" /> </p>
 
 ---
 
